@@ -9,5 +9,5 @@ elif lastdgt == 0:
     print("Last digit of {:d} is {:d} and is 0"
            .format(number, lastdgt))
 elif lastdgt < 6 and lastdgt != 0:
-    print("Last digit of {:d} is {:d} and is less than 6 and not 0"
+    print("Last digit of {:d} is {:d} and is less than 6 and not 0 \n"
            .format(number, lastdgt))

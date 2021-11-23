@@ -5,7 +5,7 @@ lastdgt = number % 10 if number >= 0 else (number * -1) % 10
 if lastdgt > 5:
    print("Last digit of {:d} is {:d} and is greater than 5"
              .format(number, lastdgt))
-elif lastdgt is 0:
+elif lastdgt == 0:
    print("Last digit of {:d} is {:d} and is 0"
              .format(number, lastdgt))
 elif lastdgt < 6 and lastdgt != 0:
